@@ -1,0 +1,147 @@
+body{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: 90%;
+  margin: auto;
+}
+.main{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 10px;
+  width: 900px;
+  background-color: rgb(12, 250, 4);
+}
+.p1{
+  background-color: rgb(238, 255, 0);
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
+}
+.first_bannar{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+
+}
+.ditel{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10px;
+}
+.flex p{
+  opacity: 0.7;
+  margin-top: -10px ; 
+
+}
+.flex h5{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+#yt{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.second_bannar{
+  height: min-content;
+  color: rgb(252, 71, 0);
+  
+}
+.second_bannar h1{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Protest Strike', sans-serif;
+}
+.second_bannar p{
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-size: large;
+  font-weight: 600;
+}
+.j{
+  grid-column: 2/3;
+  column-width: 220px;
+  font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 0.4px;
+}
+.first{
+  margin-top: -17px;
+}
+.first::first-letter{
+  padding: 10px;
+  font-size: 60px;
+  color: orangered;
+  line-height: normal;
+  float: left;
+}
+.z::before{
+  content: '"';
+}
+
+.z::after{
+  content: '"';
+}
+.z{
+  color: darkblue;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "Raleway",sans-serif;
+}
+.se-3{  
+  margin-top: 40px;
+}
+.right{
+  grid-column: 2;
+    grid-row: 1;
+    height: 300px;
+    width: 600px;
+}
+.left{
+  width: 250px;
+  grid-column: 1;
+  grid-row: 1/4;
+}
+.left h4{
+  color: rgb(248, 2, 2);
+}
+.left p{
+  color: rgb(90, 89, 89);
+}
+.ar-3{
+  display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    font-size: 1.3em;
+}
+
+.l1{
+grid-column: 2;
+    grid-row: 2;
+}
+.in{
+  display: grid;
+  gap: 20px;
+  width: 00px;
+  height: 500px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+.bottom{
+  grid-column: 2;
+    grid-row: 3/4;
+}
